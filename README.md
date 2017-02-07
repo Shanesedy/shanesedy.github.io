@@ -1,4 +1,4 @@
-<html> <title>Shane Vincent Sedlemyer </title>
+<html>
 <h1>Shane Vincent Sedlemyer </h1>
 <img src= "https://scontent.xx.fbcdn.net/v/t1.0-0/p206x206/1463144_10154938844635093_7045276756315459738_n.jpg?oh=7e534144e2d462f318c532a321ad3167&oe=5946DD42"/> 
 <h3> Brief Bio </h3>
