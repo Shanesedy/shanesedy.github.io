@@ -15,7 +15,7 @@ body{
 p   {
     line-height: 150%;
     font-weight: 400;
-    
+    color : #0B5345  
 }
 
 h1, h2, h3, h4 {
@@ -27,7 +27,7 @@ h1 {
     margin-bottom: 10px;
     font-size:300%;
     font-variant:small-caps;
-	color: #33FFBD
+	color: #0B5345  
 }
 
 h3 {
