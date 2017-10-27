@@ -1,0 +1,794 @@
+<tw-storydata name="The Audition" startnode="" creator="Twine" creator-version="2.1.1" ifid="C1A5C87D-0B2E-48F6-9D0B-2BC348CDAFC9" format="Harlowe" format-version="1.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script><tw-passagedata pid="1" name="Scene 1" tags="" position="1152,220">A bright light, that is all I remember, nothing else. [[Where -&gt;Where]] am I? [[Who -&gt;Who]] am I? </tw-passagedata><tw-passagedata pid="2" name="Where" tags="" position="1000,300">Cold. That is the only word I can think to describe this place. Removed from the world, removed from reality. All is dark, except the [[light -&gt;First Choice]] in the distance. </tw-passagedata><tw-passagedata pid="3" name="Who" tags="" position="1297,303">I try to remember my name, but I can&#x27;t. I lie here, naked. Is this even real? Is this a dream? I know nothing of myself other than the [[tattoo -&gt;Tattoo]].</tw-passagedata><tw-passagedata pid="4" name="Tattoo" tags="" position="1453,395">On my wrist, there is a tattoo that reads A3I? What could it mean? It is the only clue I have of my existence. Do I exist? Or am I just a figment floating freely in the universe? What is my [[purpose -&gt;First Choice]]?</tw-passagedata><tw-passagedata pid="5" name="First Choice" tags="" position="1150,402">Suddenly, three bursts of light appear before me. Each light holds an item inside:
+
+[[A Sword -&gt;Sword]],
+[[A Shield -&gt;Shield]],
+[[A Staff -&gt;Staff]].
+</tw-passagedata><tw-passagedata pid="6" name="Sword" tags="" position="947,566">A basic sword, with some scratches on the blade, has it been used before? It isn&#x27;t overly adorned and the grip feels weak, though, I guess it would get the job done. What would I need a sword for though? To be daring? Am I a hero?
+
+Do I take the [[sword -&gt;Took the sword]],
+or do I look at the [[others -&gt;First Choice]]?
+
+</tw-passagedata><tw-passagedata pid="7" name="Shield" tags="" position="1153,559">A small wooden shield, it seems sturdy, though there is rust adorning the edges. There are nicks in the wood, showing that it has been used in battle before. Am I in need of defense? What would I need to defend against? Is being defensive a sign of weakness, or a sign of strength? Does it take knowledge to know when to defend? I guess heroes defend others from harm. Am I a hero? 
+
+Do I take the [[shield -&gt;Took the shield]],
+or do I look at the [[others -&gt;First Choice]]?</tw-passagedata><tw-passagedata pid="8" name="Staff" tags="" position="1367,559">The staff has many markings carved along the long slender frame. What do these markings mean? What is the purpose of the staff? Does it provide wisdom? Perhaps it is magical. Does magic exist? I am not sure if I exist, so I guess in this reality, it is possible. Why would I need magic? For evil? For good? 
+
+Do I take the [[staff -&gt;Took the staff]],
+or do I look at the [[others -&gt;First Choice]]?</tw-passagedata><tw-passagedata pid="9" name="Took the sword" tags="" position="888,952">(set: $item1 to &quot;sword&quot;)I grabbed the $item1, and the light engulfed me. Suddenly, I felt a gust of wind. Looking around, I could see beautiful forests and a far-stretching plain. My body was covered in armor and chainmail head to toe. Is this my story? Am I a [[hero -&gt;Journey Begins]]?</tw-passagedata><tw-passagedata pid="10" name="Took the shield" tags="" position="1153,703">(set: $item1 to &quot;shield&quot;)I took the $item1, and was engulfed by the light. When I came to, I was lying on the ground. I stood up and brushed the dirt off of my clothes. They seemed to have been dirty to begin with, made of simple cloth. I appear to be much smaller and younger than I remember. What should I do? What is the purpose of the shield? All I see is a plain stretching on, surrounded by trees. Do I venture into the [[abyss -&gt;Journey Begins]]? </tw-passagedata><tw-passagedata pid="11" name="Took the staff" tags="" position="1450,696">(set: $item1 to &quot;staff&quot;)I took the $item1, and was engulfed by the light. I was now in a dark forest, the only light coming from a distance beyond the trees. I was adorned with sorcerer&#x27;s robes, and my skin had many more wrinkles than I remembered having. I must be important, but it is not going to do me any good staying here. I should follow the [[light -&gt;Journey Begins]].</tw-passagedata><tw-passagedata pid="12" name="Journey Begins" tags="" position="1150,833">I ventured forward on the open plain. I&#x27;ve been walking for what seems like minutes, but must be hours because the sun has gone down and it is now night. Is this my purpose? To walk alone aimlessly? Suddenly a man appeared. &quot;Give me your money&quot; he yelled. I told him I had no money. He said I was lying, and [[attacked -&gt;Battle1]]</tw-passagedata><tw-passagedata pid="13" name="Battle1" tags="" position="1153,960">When he attacked, I suddenly could not move. I was slightly damaged from the attack. I wasn&#x27;t sure what to do. &quot;Psst... it is your turn,&quot; whispered the thief. I guess I have no choice but to [[attack -&gt;B1A1]].
+</tw-passagedata><tw-passagedata pid="14" name="B1A1" tags="" position="1151,1096">
+(if: $item1 is &quot;sword&quot;)[I gripped my sword strongly, and took a charged attack at the fiend, it seemed to have damaged him a lot. &quot;Ow!&quot; he yelled. &quot;Tat twas &#x27;ay too hard of a hit, ya are sposed to be low-level.&quot; 
+&quot;I&#x27;m sorry,&quot; I said. &quot;I am new here.&quot;
+&quot;In&#x27;t ev&#x27;rybody &#x27;round &#x27;ere?&quot; he retorted.
+He then [[attacked -&gt;B1A2]] me again.]
+
+(if: $item1 is &quot;shield&quot;)[I looked at my shield, and decided to throw it like a disc.
+&quot;What ta &#x27;ell!&quot; yelled the thief. &quot;You can&#x27;t be doin&#x27; that! You&#x27;re a defender!&quot;
+&quot;I can&#x27;t attack with the shield?&quot; I said, &quot;I&#x27;m sorry, I didn&#x27;t know that. What am I supposed to attack then?&quot;
+
+&quot;&#x27;Ow ta &#x27;ell am Ah sposed ta know?&quot; yelled the thief. &quot;Ahm not ta boggart tat picked ta [[shield -&gt;learning why]].&quot;]
+
+
+(if: $item1 is &quot;staff&quot;)[I looked at the staff not knowing what to do. I could feel the energy coming from deep inside so I pushed the staff forward. A large fireball shot from the tip and incinerated the thief. What [[now -&gt;learning my role]]?]</tw-passagedata><tw-passagedata pid="15" name="B1A2" tags="" position="903,1203">The thief attacked, and I took slight damage.
+
+I guess it is my turn&gt;?
+
+Should I [[attack -&gt;B1 attack with sword]], [[defend -&gt;B1 defend]], or [[run away -&gt;B1 run]]? </tw-passagedata><tw-passagedata pid="16" name="learning why" tags="" position="1151,1301">&quot;&#x27;Ok, Ahm not gonna pretend to be ta expert &#x27;round &#x27;ere&quot; the thief said, &quot;but ya should least be able ta use logic. Ahm dumb as rocks, and I gatter tat. Ya&#x27;ll never [[pass]] if ya go on like tis.&quot;
+
+</tw-passagedata><tw-passagedata pid="17" name="learning my role" tags="" position="1399,1193">That was a powerful attack. I didn&#x27;t even think it was that strong. It was like my instinct was to not hold back, am I evil?
+
+I&#x27;ll never know if I keep standing here. I can see a small [[town -&gt;small town model A]] in the distance, maybe I can find out more there.</tw-passagedata><tw-passagedata pid="18" name="B1 attack with sword" tags="" position="783,1393">I swung my sword (slightly softer) at the thief.
+
+&quot;&#x27;Ats more like it&quot; the thief said, &quot;I&#x27;m gonna faint now, but, bit o&#x27; advice first: don&#x27;t resist.&quot;
+
+The thief feinted and dropped 5 silver [[coins -&gt;currency]]. He then disappeared into light.</tw-passagedata><tw-passagedata pid="19" name="B1 defend" tags="" position="903,1345">I thought about defending for a moment, but he seems badly weakened and I didn&#x27;t pick the shield, so to defend would seem silly. So I [[attacked -&gt;B1 attack with sword]] instead.</tw-passagedata><tw-passagedata pid="20" name="B1 run" tags="" position="701,1199">I turned to run but was stopped by a wall of light. It is almost like a wall of sorts preventing me from fleeing battle. I guess I will [[attack -&gt;B1 attack with sword]].</tw-passagedata><tw-passagedata pid="21" name="currency" tags="" position="1149,1569">I looked at the 5 siver coins, they had on them the image of a castle. I must be in some sort of fantasy world. Is this where I am meant to be? 
+
+There must be a reason the thief dropped thess coins, so I put them in my pocket. I see a small [[town -&gt;small town model A]] up ahead, maybe I can use the coins and get some answers there.</tw-passagedata><tw-passagedata pid="22" name="pass" tags="" position="1149,1438">&quot;Pass?&quot; I asked, &quot;Is this some sort of test?&quot;
+
+The thief started to get consumed by light, &quot;Shit, Ah&#x27;v gone and said too much &#x27;gain, &#x27;int I?&quot; he said as he disappeared. 
+
+He left behind 5 silver [[coins -&gt;currency]].</tw-passagedata><tw-passagedata pid="23" name="small town model A" tags="" position="1160,1709">(if: $item1 is &quot;staff&quot;)[As soon as I entered the town, I could see it was friendly. There are children in a [[small garden -&gt;small garden bad]].
+
+I walked by a small [[inn -&gt;inn bad]], as soon as the inn-keeper outside saw me, he quickly ran inside and shut the door. 
+
+Across the way, I could see a nice [[old lady -&gt;old lady bad]] petting a cat on the porch of a small house.
+
+There seems to be more up ahead over a [[small bridge -&gt;small bridge bad]].]
+
+(else:)[Walking into the small town, I can see that it is very friendly. The small children are running around a [[small garden -&gt;small garden good]]. 
+
+An inn-keeper stands outside a small [[inn -&gt;inn good]] sweeping the porch.
+
+There is a nice [[old lady -&gt;old lady good]] sitting on the porch of a small house with an orange roof.
+
+There seems to be more up ahead over a [[small bridge -&gt;small bridge good]]. ]
+
+</tw-passagedata><tw-passagedata pid="24" name="small garden bad" tags="" position="406,1600">(If: $garden is 1)[There is nothing more for me to do here, I should go back to [[town -&gt;small town model A]].]
+
+(else: $garden is &lt;1)[I approached the children in the garden. 
+
+The one child said &quot;Please don&#x27;t &#x27;urt us mistea. We only be &#x27;arvestin crops, for ta offerin&#x27;. 
+
+The kids are trembling in fear as they speak to me. I must be a bad person, do I treat the kids as they expect? 
+
+[[Burn]] their crops?
+[[Hit]] the one that dare talked to me? 
+
+Or do I act merciful and tell them they are doing a [[good job]],
+
+or to go [[home]] for the day?]
+</tw-passagedata><tw-passagedata pid="25" name="inn bad" tags="" position="650,1771">
+(If: $inn is 1)[I don&#x27;t think there is anything else for me to do here, I should go back to [[town -&gt;small town model A]].]
+
+(Else: $inn is &lt;1)[I walked to the door of the inn.
+
+Do I [[knock on the door]], or [[incinerate the door]]?]</tw-passagedata><tw-passagedata pid="26" name="old lady bad" tags="" position="950,1891">
+
+(If: $old_lady is 1)[I don&#x27;t think there is anything else for me to do here, I should go back to [[town -&gt;small town model A]].]
+
+(Else: $old_lady is &lt;1)[I approached the old lady petting her cat. As soon as the cat saw me, it started hissing. 
+
+When I stepped onto the porch, the cat leapt from the lap and clawed my leg tearing a hole in my robe and causing me to bleed.
+
+
+Do I [[launch a fireball]] at the cat, or [[mend]] my wound and robes?]
+
+</tw-passagedata><tw-passagedata pid="27" name="small bridge bad" tags="" position="1171,1891">
+(If: $STMA is 3)[As I walked over the bridge, I could see a festival of sorts ahead. Is this the [[offering -&gt;offering ceremony bad]]?]
+
+
+(else: $STMA is &lt;3)[I approached the bridge, and as I began to walk across, a wall of light appeared and prevented me from walking over it.
+I guess there must be more for me to do back in [[town -&gt;small town model A]].]</tw-passagedata><tw-passagedata pid="28" name="small garden good" tags="" position="1464,2039">(if: $item1 is &quot;sword&quot;)[When I approached the garden, I could see several children working to harvest [[crops]].]
+
+(if: $item1 is &quot;shield&quot;)[When I approached the garden, I could see several [[children]] working to harvest crops.]</tw-passagedata><tw-passagedata pid="29" name="inn good" tags="" position="1781,1851">(if: $item1 is &quot;sword&quot;)[I walked in the inn, and approached the man behind the [[counter]].]  
+
+(if: $item1 is &quot;shield&quot;)[There stood a man behind the counter, he seems to know me. &quot;How&#x27;r ya today kiddo?&quot; he asked. &quot;I think your gran and sister were looking for ya. Better get goin&#x27; cause there is work left to do for the offerin&#x27;.
+
+I guess I should go back to [[town -&gt;small town model A]].]</tw-passagedata><tw-passagedata pid="30" name="old lady good" tags="" position="1776,1633">(if: $item1 is &quot;sword&quot;)[I could see a nice old lady on a [[porch]], I should approach her.]
+
+(if: $item1 is &quot;shield&quot;)[I could see a nice old lady on a porch, I should [[approach]] her.] </tw-passagedata><tw-passagedata pid="31" name="small bridge good" tags="" position="1502,1598">I come up to the bridge, it seems like there is a celebration of sorts being prepared on the other side. When I try to cross, but a wall of light appears and repels me. 
+
+I guess I can&#x27;t go everywhere.
+
+I should go back to [[town -&gt;small town model A]].</tw-passagedata><tw-passagedata pid="32" name="Burn" tags="" position="412,1725">I leaned my staff forward, and ignited their crops. The children scurried away in fear. I expected to feel bad about it, but I felt nothing.
+
+Suddenly, I felt a sharp prick on my wrist. I looked down to see a tattoo that read A3I (whatever that means), underneath, where I felt the sharp prick was the letter &quot;P.&quot; (set: $P to $P + 1)
+(set: $STMA to $STMA + 1)
+
+Does it stand for &quot;pass?&quot; 
+
+Did a I pass a test?
+
+I should go somewhere else in town. 
+
+I could go to the [[inn -&gt;inn bad]], 
+
+talk to the [[old lady -&gt;old lady bad]], 
+
+or go towards the [[small bridge -&gt;small bridge bad]].
+
+</tw-passagedata><tw-passagedata pid="33" name="Hit" tags="" position="518,1470">I raised my staff and struck the child.
+
+I yelled &quot;How dare you speak to me without being spoken to, such insolence!&quot;
+
+That felt like something someone wearing these clothes would say, right?
+
+Was &quot;insolence&quot; too much?
+
+The child said &quot;Sorry sir, Ah... Ah&#x27;ll get back ta work.&quot;
+
+I didn&#x27;t know what to do now, so I looked at the boy, and turned back towards where I came.
+
+I could feel a sharp [[prick]] on my wrist as I walked away.
+
+</tw-passagedata><tw-passagedata pid="34" name="good job" tags="" position="151,1500">I told the boy not to worry and that he was doing a good job.
+
+He looked at me and said, &quot;Tis a trick?&quot;
+
+I said &quot;No trick, just keep doing what you are doing.
+
+The boy almost smiled, and said, &quot;Tanks Mister.&quot;
+
+I turned to walk away and I suddenly felt a sharp [[pain]] on my wrist.</tw-passagedata><tw-passagedata pid="35" name="home" tags="" position="238,1680">I told the boy to run along and go home.
+
+He asked &quot;Did Ah do somethin&#x27; wrong?&quot;
+
+I smiled and said &quot;No my friend, I just think you deserve a break.&quot;
+
+The child said &quot;Tanks I guess,&quot; then ran off.
+
+I expected to feel good about it, but I felt nothing.
+
+Suddenly, I felt a sharp pain on my wrist. I looked down to see a tattoo that read A3I (whatever that means), underneath, where I felt the sharp pain was the letter &quot;F.&quot; (set: $F to $F + 1)
+(set: $STMA to $STMA + 1)
+
+Does it stand for &quot;fail?&quot; 
+
+Did a I fail a test?
+
+I should go somewhere else in town. 
+
+I could go to the [[inn -&gt;inn bad]], 
+
+talk to the [[old lady -&gt;old lady bad]], 
+
+or go towards the [[small bridge -&gt;small bridge bad]].
+
+</tw-passagedata><tw-passagedata pid="36" name="prick" tags="" position="656,1390">I looked down to see a tattoo that read A3I (whatever that means), underneath, where I felt the sharp prick was the letter &quot;P.&quot;  (set: $P to $P + 1)
+
+What does the &quot;P&quot; mean? Did I pass?
+
+What is my purpose?
+
+(set: $STMA to $STMA + 1)
+When I looked back up, I was already back in the main drag of the town.
+
+I guess I could go to the [[inn -&gt;inn bad]], 
+
+talk to the [[old lady -&gt;old lady bad]], 
+
+or go towards the [[small bridge -&gt;small bridge bad]].
+
+
+
+</tw-passagedata><tw-passagedata pid="37" name="pain" tags="" position="21,1574">I looked down to see a tattoo that read A3I (whatever that means), underneath, where I felt the sharp prick was the letter &quot;F.&quot;  (set: $F to $F + 1)
+
+What does the &quot;F&quot; mean? Did I fail?
+
+What is my purpose?
+
+(set: $STMA to $STMA + 1)
+When I looked back up, I was already back in the main drag of the town.
+
+I guess I could go to the [[inn -&gt;inn bad]], 
+
+talk to the [[old lady -&gt;old lady bad]], 
+
+or go towards the [[small bridge -&gt;small bridge bad]].
+
+
+
+</tw-passagedata><tw-passagedata pid="38" name="offering ceremony bad" tags="" position="1171,2029">Once over the bridge, I could see a large celebration set up. It seems like the whole town must be here. I see a stage with a large stockpile of food and money resting in the corner.
+
+Is this the offering?
+
+As I entered the crowd, I could hear gasps, as the people parted out of my way.
+
+An older nicely dressed man appeared on the stage.
+
+He proclaimed, &quot;Ma brottas and sistas! We are &#x27;ere for tis month&#x27;s offerin&#x27; in honor of ta great Sorceror.&quot;
+
+He reached out his hand gesturing to me, confirming my suspicions: I am the [[sorceror -&gt;the sorceror takes the stage]].</tw-passagedata><tw-passagedata pid="39" name="knock on the door" tags="" position="515,1899">I knocked on the door.
+
+The inn-keeper yelled &quot;I&#x27;ve made my contribution to the tribute, go away.&quot; 
+
+He seems like he doesn&#x27;t want any trouble, so I decide to go back to [[town -&gt;small town model A]].
+
+As I walked away, I felt a sharp pain on my wrist. I looked down to see a tattoo that read A3I (whatever that means), underneath, where I felt the sharp prick was the letter &quot;F.&quot; (set: $F to $F + 1)
+(set: $STMA to $STMA + 1)
+
+Does it stand for &quot;fail?&quot; 
+
+Did a I fail a test?
+
+(set: $inn to $inn + 1)</tw-passagedata><tw-passagedata pid="40" name="incinerate the door" tags="" position="679,1919">I aimed my staff at the door, and evicerated it from existance.
+
+The inn-keeper was hiding behind the counter shaking in fear.
+
+&quot;How dare you deny me!&quot; I yelled.
+
+I think that sounds like something I should say in this situation.
+
+I aimed a fireball at the floor next to him to give him a scare.
+
+
+I felt a sharp prick on my wrist. I looked down to see a tattoo that read A3I (whatever that means), underneath, where I felt the sharp prick was the letter &quot;P.&quot; (set: $P to $P + 1)
+(set: $STMA to $STMA + 1)
+
+Does it stand for &quot;pass?&quot; 
+
+Did a I pass a test?
+
+I should go back to [[town -&gt;small town model A]].
+
+(set: $inn to $inn + 1)</tw-passagedata><tw-passagedata pid="41" name="launch a fireball" tags="" position="827,2072">I aimed my staff at the cat, and shot a fireball at it as it was running away. The fireball nicked it, and it screeched as it ran back in the house.
+
+The old lady said &quot;Don&#x27; be throwin&#x27; your fiya round &#x27;ere.&quot; &quot;Ya deserved what that cat gave ya. Aint bad &#x27;nuff ya damand an offerin&#x27;, you &#x27;ave ta come parade ya-self &#x27;round town.&quot;
+
+I gripped my staff tight. The old lady saw this, and said, &quot;Well go ahead, if ya gonna take care of an old lady ten get on wit it, if not, ten let me be and get gone.&quot;
+
+I thought about doing more, but I felt burning the cat was enough.
+
+As I turned to go back to [[town -&gt;small town model A]], I felt a sharp prick on my wrist. 
+
+I looked down to see a tattoo that read A3I (whatever that means), underneath, where I felt the sharp prick was the letter &quot;P.&quot; (set: $P to $P + 1)
+(set: $STMA to $STMA + 1)
+
+Does it stand for &quot;pass?&quot; 
+
+Did a I pass a test?
+
+(set: $old_lady to $old_lady + 1)</tw-passagedata><tw-passagedata pid="42" name="mend" tags="" position="987,2060">I touched my staff to my leg, and a glowing green light made it and my robes look like new.
+
+&quot;I didn&#x27;t mean to cause any trouble,&quot; I said.
+
+&quot;Trouble is all ya cause,&quot; the old lady said, &quot;like tat silly offerin&#x27;.&quot;
+
+&quot;Offering?&quot; I asked.
+
+&quot;Don&#x27;t act like ya sorry &#x27;bout it,&quot; the old lady retorted, &quot;If ya were really sorry, ya&#x27;d call the damn ting off! Now let an old lady be!&quot;
+
+She seems mad, I should go back to [[town -&gt;small town model A]]. 
+
+As I was leaving, I felt a sharp prick on my wrist. 
+
+I looked down to see a tattoo that read A3I (whatever that means), underneath, where I felt the sharp prick was the letter &quot;F.&quot; (set: $F to $F + 1)
+(set: $STMA to $STMA + 1)
+
+What does it mean?
+
+(set: $old_lady to $old_lady + 1)</tw-passagedata><tw-passagedata pid="43" name="the sorceror takes the stage" tags="" position="1171,2179">(If: $P is &lt;1)[I took the stage knowing that I was the villain, and embracing it.
+
+I looked at the pile and said, &quot;You call this an offering, pathetic!&quot;
+
+Then, a young man appeared from the crowd and yelled &quot;Sorceror! Your tyranny will end, I have faced the trials and stolen your treasures!&quot;
+
+The people cheered on the young man.
+
+This continued until I realized I needed to initiate the battle. 
+&quot;You think you can defeat me!&quot; I yelled, &quot;Prepare to feel my [[wrath -&gt;The battle begins]]!&quot;
+
+I slammed my staff down, and a bright flame surrounded me, acting as a sort of defense.]
+
+
+
+
+(else:)[I took the stage, knowing I was supposed to be the bad guy. Before I could say anything, I was cut off by a young man.,
+He yelled, &quot;Sorceror! Your tyranny will end, I have faced the trials and stolen your treasures!&quot;
+
+Some of the people booed the young man, saying, &quot;E ain&#x27;t tat bad, E&#x27;s kinda nice.&quot; 
+
+They threw things at the hero causing him to take great damage, I knew I could [[do him in]].]
+
+
+</tw-passagedata><tw-passagedata pid="44" name="The battle begins" tags="" position="1171,2325">(set: $HP to +100) 
+
+Summon a [[fire demon1]].
+Cast a [[burning spell1]].
+
+
+
+
+HP: $HP</tw-passagedata><tw-passagedata pid="45" name="fire demon1" tags="" position="1059,2475">I lean my staff down and raise it upward to create a fire demon.
+
+The demon raged forward and attacked to young man doing 2 damage
+
+The demon returned to my side.
+
+The hero pulled out a bomb and threw it, it burst into water hitting both my demon and me. The demon was washed away, and my flame cloak vanished.
+
+(set: $HP to -20)
+
+I guess it is my [[turn -&gt; turn 2]] again.
+
+HP: $HP</tw-passagedata><tw-passagedata pid="46" name="burning spell1" tags="" position="1217,2470">I raise my staff, and send forth a firery aura. 
+
+The young man is now burned, and takes some burn damage.
+
+He pulls some sort of bomb from his bag, and throws it at the center of the stage. It burst into water hitting both young man and me. The firery aura causing his burn damage was doused, and my flame cloak vanished.
+
+This also caused me a great deal of damage.
+
+(set: $HP to -20)
+
+I guess it is my [[turn -&gt; turn 2]] again.
+
+HP: $HP</tw-passagedata><tw-passagedata pid="47" name=" turn 2" tags="" position="1177,2607">In between the turn, someone in the crowd threw a stone at me causing me to lose health. 
+
+(set: $HP to -5) 
+
+I should switch tactics, I slam my staff against the ground, and now a veil of electricity surrounds me.
+
+Do I conjure a  [[lightning bolt]],
+or [[electrify -&gt;Electrify]] the field?
+
+
+
+HP: $HP</tw-passagedata><tw-passagedata pid="48" name="lightning bolt" tags="" position="1072,2801">I raise my staff and push it forward at the young man, causing a thunderbolt to strike him, causing a lot of damage
+
+Now his turn, the young man pulled from his bag a large rock.
+
+He pulls the rock close focusing on it, and suddenly he has become armored like a stone gollem.
+
+He punches the ground causing the ground to quake, large stones fly up at me rapidly.
+
+This hurts a lot for some reason. (set: $HP to -25).
+
+In between turns, a member of the audience throws a potion at the hero, he uses it and recovers some health before my [[turn -&gt;turn 3]].
+
+HP: $HP</tw-passagedata><tw-passagedata pid="49" name="Electrify" tags="" position="1262,2799">I once again slam my staff to the ground.
+
+The entire stage is engulfed in electricity.
+
+This should prevent any more water attacks.
+
+The young man takes some damage, and then, from his bag he pulls a large rock.
+
+He pulls the rock close focusing on it, and suddenly he has become armored like a stone gollem.
+
+He punches the ground causing the ground to quake, the stones render my electric field useless. Large fly up at me rapidly.
+
+This hurts a lot for some reason. (set: $HP to -25).
+
+In between turns, a member of the audience throws a potion at the hero, he uses it and recovers some health before my [[turn -&gt;turn 3]].
+
+HP: $HP</tw-passagedata><tw-passagedata pid="50" name="turn 3" tags="" position="1158,2959">I slam my staff to the ground another time to summon a veil of water to surround me. 
+
+I then conjure a tidal wave that sweeps up the young man.
+
+The young man seems to have taken a lot of damage, but he pulls out a sword that is electrically charged, and strikes me with it, my veil now rather than protecting me is hurting me.
+
+(set: $HP to -35).
+
+It seems that no matter what I do, the young man is anticipating my moves, and ready for them. Almost like he has battled me before.
+
+In between turns I take damage from the electricity.
+
+Another potion comes flying from the audience healing the young man.
+
+
+I feel that there is nothing left for me to do other than launch an [[attack -&gt;tri attack]] made of all three elements.</tw-passagedata><tw-passagedata pid="51" name="tri attack" tags="" position="1158,3109">
+I conjure a giant beam of water, with lightning and fire swirling around it.
+
+The hero is surrounded with light before the beam hits. The light reflects the beam back at me. And all I see is [[light -&gt;back to the light]].
+
+(set: $HP to -100).
+
+HP: $HP</tw-passagedata><tw-passagedata pid="52" name="back to the light" tags="" position="1224,3289">I was back in the light like before.
+
+Was this all a test?
+
+Did I pass?
+
+Did I fail?
+
+Did it even happen at all?
+
+What is the [[answer -&gt;to be continued]]?</tw-passagedata><tw-passagedata pid="53" name="children" tags="" position="1477,2171">
+(if: $garden is 1)[There doesn&#x27;t seem like there is anything left to do here. I should go back to [[town -&gt;small town model A]].]
+
+(else:)[&quot;What are you kids doing?&quot; I asked.
+
+&quot;Ya kids,&quot; the one girl said, &quot;Wat&#x27;s tat s&#x27;posed to mean?&quot;
+
+I forgot that in my current form, I am a child.
+
+&quot;Sorry,&quot; I said.
+
+&quot;Wadya sorry fah?&quot; asked the girl, &quot;Stead of bein&#x27; sorry, why donya help?&quot;
+
+I don&#x27;t know what I am supposed to be doing here.
+
+Am I meant to [[help]] the girl, 
+
+or am I meant to be somewhere [[else]] in town?]</tw-passagedata><tw-passagedata pid="54" name="crops" tags="" position="1746,2013">(if: $garden is 1)[There doesn&#x27;t seem like there is anything left to do here. I should go back to [[town -&gt;small town model A]].]
+
+(else:)[I stumbled upon a some kids in a garden harvesting crops. Seems like too much work. I said that they looked like they needed help.
+
+The small girl replied &quot;We&#x27;d take any help we can get mistah.&quot;
+
+The kids don&#x27;t look like they would have any silver to give me, and I am not sure if I have the time to [[help -&gt;help the kids]], or if I should just [[walk away]]]</tw-passagedata><tw-passagedata pid="55" name="help" tags="" position="1626,2279">I decided to help the girl. We loaded up a wheelbarrow full of crops, and another kid took them over the [[bridge -&gt;small bridge good]].
+
+The girl said &quot;Tanks for ta help. Ya should go see gran when you get back to town, she seemed worried. Before you go, take tis sack of veggie with ya, ya might need &#x27;em to stay healthy. (set: $veggies to $veggies + 1)
+
+
+As I turned to go back to [[town -&gt;small town model A]], I felt a sting come from my wrist. I looked down to see a tattoo that read A3I, and underneath was a &quot;P.&quot;
+
+What does the &quot;P&quot; stand for?
+
+(set: $garden to $garden + 1)
+
+(set: $P to $P + 1)</tw-passagedata><tw-passagedata pid="56" name="else" tags="" position="1750,2161">I told the girl I couldn&#x27;t help her.
+
+She said &quot;Some brotah ya are. Fine, get goin&#x27;, Gran wanted ya anyway.&quot;
+
+She&#x27;s my sister? I would have helped her if I would have known.
+
+It&#x27;s too late now. I suddenly felt a sting come from my wrist, I looked down to see a tattoo that read A3I, and underneath was an &quot;F.&quot;
+
+What does the &quot;F&quot; stand for?
+
+Did I fail a test?
+
+I should go back to [[town -&gt;small town model A]].
+
+(set: $garden to $garden + 1)
+
+(set: $F to $F + 1)
+</tw-passagedata><tw-passagedata pid="57" name="porch" tags="" position="2323,1839">(if: $porch is 1)[Ya have any luck findin&#x27; ma [[cat -&gt; cat status report]] yet? 
+
+(else:)I approached the old lady and asked her if there was possibly a job I could do for her to earn some silver.
+
+She said &quot;Ya know, my poor cat ran away again. I reckon he went in the [[forest]]. If you would fetch &#x27;em for me, I would gladly give ya 10 silva.&quot; (set: $porch to $porch + 1)]</tw-passagedata><tw-passagedata pid="58" name="approach" tags="" position="2019,1605">(if: $garden is 1)[&quot;Oh, you&#x27;re done in the garden?&quot; the old lady said, &quot;but I&#x27;m &#x27;fraid I need your help too. It seems ma cat has run away. She prob&#x27;ly went to tat old [[cave]] again. Can you go find him for me?&quot;]
+
+(else:)[&quot;Oh! You&#x27;re here!&quot; the old lady exclaimed, I need your help! But first, I think your sister needed some help in the [[garden -&gt;small garden good]]. Go help her and then come back.]</tw-passagedata><tw-passagedata pid="59" name="forest" tags="" position="2643,1875">The forest was beautiful, but it seemed vast. There was a small [[river]] that seemed to run on far. 
+
+In the opposite direction, was a grove of [[fruit trees]] 
+
+And straight ahead, I could see a [[tent]] in the distance. </tw-passagedata><tw-passagedata pid="60" name="walk away" tags="" position="2311,2007">I told the kids I simply didn&#x27;t have the time and turned to leave.
+
+As I [[walked away -&gt;small town model A]], I suddenly felt a sting come from my wrist, I looked down to see a tattoo that read A3I, and underneath was an &quot;F.&quot;
+(set: $F to $F + 1)
+What does this all mean?
+
+(set: $garden to $garden + 1)</tw-passagedata><tw-passagedata pid="61" name="help the kids" tags="" position="2224,2143">I decided to help the kids. We were able to finish much faster than they would have alone, but I fear I might not have enough time to get the silver I need.
+
+The small girl hugged me and gave me a sack of veggies, telling me they might come in handy. (set: $veggies to $veggies + 1).
+
+As I [[was leaving -&gt;small town model A]], I suddenly felt a sting come from my wrist, I looked down to see a tattoo that read A3I, and underneath was an &quot;P.&quot;
+(set: $P to $P + 1)
+Was this a test? What does this A3I mean?
+
+(set: $garden to $garden + 1)</tw-passagedata><tw-passagedata pid="62" name="cave" tags="" position="2087,1451">As I enter the cave, I can barely see, with just a flicker of light coming from deep within. I hear a &quot;meow&quot; echoing from [[within]].</tw-passagedata><tw-passagedata pid="63" name="within" tags="" position="2099,1301">Despite having no light, I brave it traveling past the first corridor. I come to a chasm just narrow enough that I might be able to [[jump it]]. 
+
+There is also a very small edge in the wall that is conveniently the same length as the gap. It is almost as if someone purposely put it there expecting someone to [[side-step]] it.
+
+Examining the chasm, it could also be an option to purposely [[fall]] down it to better embrace for impact.</tw-passagedata><tw-passagedata pid="64" name="jump it" tags="" position="2259,1237">I backed up to get a running start, and jumped with all my might. Mid-air, I lost all momentum because I forgot I was a child and have short legs and little body-strength.
+
+I fell down the chasm, I landed in a small pool of water. I crawled out of the pool and could feel a cool draft coming from the heart of the cave.
+
+My body-temperature was dropping. Iknew there was nothing I could do but [[venture forward]] with my shield in front of me.</tw-passagedata><tw-passagedata pid="65" name="side-step" tags="" position="2097,1175">I got half way across the ledge, when a bat flew from the heart of the cave and attacked me.
+
+I fell down the chasm, I landed in a small pool of water. I crawled out of the pool and could feel a cool draft coming from the heart of the cave.
+
+My body-temperature was dropping. Iknew there was nothing I could do but [[venture forward]] with my shield in front of me.</tw-passagedata><tw-passagedata pid="66" name="fall" tags="" position="1923,1225">I dropped down from the ledge and tried to slide down the wall as best as I could. I saw a pool of water below, and pushed off the wall to do a roll and avoid it to keep dry. I barely missed the ledge, falling in anyway. At least I took minmal damage.
+
+After I climbed out of the pool, I knew I had to [[venture forward]] with my shield in front of me for protection.
+
+</tw-passagedata><tw-passagedata pid="67" name="venture forward" tags="" position="2313,1001">Barely able to see, I came to crossroads. I could see a feint light coming from the [[left]], but I could hear a &quot;meow&quot; coming from the [[right]]. 
+
+I might have a better chance of self-preservation heading towards the light, but I knew I came in for the cat.</tw-passagedata><tw-passagedata pid="68" name="right" tags="" position="2389,827">I know how helpless I am, I can only imagine how the poor cat feels. So I decide to follow it&#x27;s cry. As I head down the narrow path, I feel another sharp pain on my wrist, I look down to find a &quot;P.&quot; (set: $P to $P + 1)
+
+I felt like I made the right decision, despite the darkness surrounding me. 
+
+As I move forward, I can barely move because of the cold from my wet clothes, and the hunger that grows in my stomach.
+
+(if: $veggies is 1)[As I focused on my rumbling stomach, I remembered that I had the bag of veggies. I ate them, and could feel some warmth generate from within, giving me enough strength to [[continue on -&gt;continue on cat]].]
+
+(if: $veggies is &gt;1)[I feel my strength dwindling, and know I have to stop here. I curl up on the ground, hiding under my shield waiting in the [[dark -&gt;dark cat]].]</tw-passagedata><tw-passagedata pid="69" name="left" tags="" position="2201,845">I decide to follow the light, as I head down the narrow path, I feel another sharp pain on my wrist, I look down to find a &quot;F.&quot; (set: $F to $F + 1)
+
+Was that the wrong decision? I am too far down this path to turn back now. I can barely move because of the cold from my wet clothes, and the hunger that grows in my stomach.
+
+(if: $veggies is 1)[As I focused on my rumbling stomach, I remembered that I had the bag of veggies. I ate them, and could feel some warmth generate from within, giving me enough strength to [[continue on]].]
+
+(if: $veggies is &gt;1)[I feel my strength dwindling, and know I have to stop here. I curl up on the ground, hiding under my shield waiting in the [[dark]].]</tw-passagedata><tw-passagedata pid="70" name="dark" tags="" position="1945,659">I burried my head under my shield waiting to die. Until a young man came across me. 
+
+He said &quot;Are you lost?&quot;
+
+It took all of my energy to nod.
+
+Then a roar came from a nearby chamber. He said &quot;I have to deal with that, then I will come back for you. Can I borrow your shield?&quot;
+
+Do I [[give him the shield]]?
+
+Or [[hold on to my shield]] for protection?</tw-passagedata><tw-passagedata pid="71" name="continue on" tags="" position="2201,679">I continue on, using my shield to deflect bats. 
+
+I finally come to the source of the light: a young man holding a torch. The you man looked at me and said &quot;Are you lost? Here, come close to the torch to keep you warm.&quot;
+
+He seemed kind, he was dressed in basic armor equipt with the torch, a sword, and a bag.
+
+&quot;Thanks mister,&quot; I said. 
+
+Then suddenly we heard a roar, from the pile of rocks near by rose a rock [[creature]].</tw-passagedata><tw-passagedata pid="72" name="continue on cat" tags="" position="2525,657">I continued into the dark, until I felt a warm creautre weave in and out of my legs. It was the cat! I picked up the cat pet it as I turned back. 
+
+It purred, generating warmth keeping us both warm. I was glad we had each other, but I had no clue how I was going to get us out now.
+
+I just kept [[forging ahead]]. </tw-passagedata><tw-passagedata pid="73" name="dark cat" tags="" position="2678,791">I burried my head under my shield waiting to die. Until a young man came across me. 
+
+He said &quot;Are you lost?&quot;
+
+It took all of my energy to nod.
+
+Then a roar came from a nearby chamber. He said &quot;I have to deal with that, then I will come back for you. Can I borrow your shield?&quot;
+
+Do I [[give him the shield]]?
+
+Or [[hold on to my shield]] for protection?</tw-passagedata><tw-passagedata pid="74" name="creature" tags="" position="2205,531">The creature was large with rock fists easily capable of causing fissures. The young man said &quot;Stand back, I&#x27;ll take care of this,&quot; and asked if he could borrow my shield.
+
+Do I trust the young man to defeat the monster, and [[give him my shield]]? 
+
+Or do I [[keep my shield]] to defend myself in case he fails? </tw-passagedata><tw-passagedata pid="75" name="give him my shield" tags="" position="2058,417">I decided my best chance was giving the young man my shield. Once he stood there with sword and shield in hand, I knew that was the right choice, and that the shield was meant for him.
+
+I felt my wrist stining again, and looked down at my wrist to find an &quot;P.&quot;
+(set: $P to $P + 1)
+
+The young man stood poised to win as he began [[battle with the monster]].</tw-passagedata><tw-passagedata pid="76" name="keep my shield" tags="" position="2230,392">I told the hero I wanted to keep my shield. He said he understood, but I felt another stining and looked down at my wrist to find an &quot;F.&quot;
+(set: $F to $F + 1)
+
+Perhaps I should have given him the shield, but it is too late now, as he is already locked in [[battle with the monster]].</tw-passagedata><tw-passagedata pid="77" name="battle with the monster" tags="" position="2396,290">(if: $P is &gt;1)[The hero fought valiantly, and was able to strike a final blow into the core of the monster. 
+
+The mosnter started to glow, until it descinegrated into light. It left behind a large rock that must have been the core of it&#x27;s power. The hero grabbed the rock, and placed it in his bag.
+
+He smiled at me and said, &quot;Let&#x27;s get out of here.&quot; Then everything turned to [[light -&gt;back to the light]].]
+
+(else:)[The hero took on the monster attacking sloppily. Unable to block enough damage, the hero was crushed underneath a small rockslide caused by the [[monster -&gt;A new target]].]</tw-passagedata><tw-passagedata pid="78" name="A new target" tags="" position="2562,312">I hid behind the shield as the monster turned to me, it roared as it raised it&#x27;s fist, and brought it down with great force upon me. Suddenly, everything turned to [[light -&gt;back to the light]].</tw-passagedata><tw-passagedata pid="79" name="forging ahead" tags="" position="2685,581">I got back to the crossroads, when suddenly I could hear a roar come from the other path. Then a young man came running out of the path. He saw me, and yelled &quot;[[run]]!&quot;</tw-passagedata><tw-passagedata pid="80" name="run" tags="" position="2879,541">We ran until we got to the small pool where I had fallen. The young man said &quot;I can defeat it if I had a shield to deflect it&#x27;s rock throws.&quot;
+
+I looked at my shield, knowing my best chance at survival was [[giving him the shield]], but on the other hand, the shield felt important, and I might want to [[hold on to it]]. </tw-passagedata><tw-passagedata pid="81" name="giving him the shield" tags="" position="3084,621">I offered him my shield knowing he was my best shot. The young man looked at me and knodded, he then jumped and took a strike at the center of the beast.
+
+I felt a stinging come from my wrist, where I found an &quot;F.&quot; (set $P to $P + 1)
+
+The monster [[roared]], and a fierce battle ensued.</tw-passagedata><tw-passagedata pid="82" name="hold on to it" tags="" position="3102,457">I pulled the shield close to me, resisting . The youn man looked at me, and before he could say anything, he was slammed against the wall. 
+
+I felt a stinging come from my wrist, where I found an &quot;F.&quot; (set $F to $F + 1)
+
+Was that the wrong choice? Was my purpose to help him?
+
+The monster [[roared]] before I could do anything.</tw-passagedata><tw-passagedata pid="83" name="roared" tags="" position="3276,501">(if: $P is &gt;1)[The hero fought valiantly, and was able to strike a final blow into the core of the monster. 
+
+The mosnter started to glow, until it descinegrated into light. It left behind a large rock that must have been the core of it&#x27;s power. The hero grabbed the rock, and placed it in his bag.
+
+He smiled at me and said, &quot;Let&#x27;s get you and that cat out of here.&quot; Then everything turned to [[light -&gt;back to the light]].]
+
+(else:)[The hero took on the monster attacking sloppily. Unable to block enough damage, the hero was crushed underneath a small rockslide caused by the [[monster -&gt;A new target cat]].]</tw-passagedata><tw-passagedata pid="84" name="A new target cat" tags="" position="3400,385">The monster turned it&#x27;s sights to me, the cat hissed at the monster, as the monster raised it&#x27;s fist, and brought it down with great force upon us. Suddenly, everything turned to [[light -&gt;back to the light]].</tw-passagedata><tw-passagedata pid="85" name="give him the shield" tags="" position="2944,853">I gave him the shield, and he ran off towards the roar, saying he would return.
+
+I felt a stinging coming from my wrist, and looked to see a &quot;P.&quot; (set: $P to $P +1)
+
+Although I was in the dark [[alone]], it felt okay.</tw-passagedata><tw-passagedata pid="86" name="hold on to my shield" tags="" position="2920,969">I kept my shield, the young man looked at me with a disappointed yet understanding look. Then he ran off towards the roar, saying he would return.
+
+I felt a stinging coming from my wrist, and looked to see a &quot;F.&quot; (set: $F to $P +1)
+
+All I could do was sit [[alone]] in the dark.</tw-passagedata><tw-passagedata pid="87" name="alone" tags="" position="3092,917">(if: P is &gt;1)[I sat there in the dark. The cold surrounded me. I felt my conciousness waining. 
+
+Then I could see a bright light coming from a nearby chamber, and soon, the young man reappeared.
+
+He looked at me and smiled, saying &quot;Let&#x27;s get out of here&quot; extending me his hand.
+
+I took his hand, and it all turned to [[light -&gt;back to the light]].]
+
+(else:)[I sat there in the dark. The cold surrounded me. I felt my conciousness [[waining]].] </tw-passagedata><tw-passagedata pid="88" name="waining" tags="" position="3232,919">At first, I felt hope that he might return. 
+
+Then that hope turned to regret, until I felt my time come to and end.
+
+Then suddenly, everything turned to [[light -&gt;back to the light]].</tw-passagedata><tw-passagedata pid="89" name="counter" tags="" position="2036,1929">(if: $inn is 1)[He looked at me and said &quot;Any [[luck]]?]
+
+(else:)[He said &quot;There you are son. Did you have any luck coming up with the money yet?&quot;
+
+&quot;Money,&quot; I asked. 
+
+&quot;Oh no,&quot; he said, &quot;If we don&#x27;t have that money by the offerin&#x27; we will lose the inn! We still need 20 silver, you must find a way to get it. I have the 5 silver in my pocket from the thief, I guess I should go back to [[town -&gt;small town model A]] to get some more. (set $inn to 1).] 
+</tw-passagedata><tw-passagedata pid="90" name="luck" tags="" position="2038,2161">(if: $silver is 20)[I told the man I had the silver, and he said all that we had to do was [[wait -&gt;waiting for the collector]] for the collector to show up.]
+
+(else:)[I told him I didn&#x27;t have the silver yet, and was just checking in.
+
+I should go back to [[town -&gt;small town model A]] now.]</tw-passagedata><tw-passagedata pid="91" name=" cat status report" tags="" position="2503,1699">(if: $cat is 1)[&quot;Ah can&#x27;t believe ya found &#x27;em! T&#x27;ere s&#x27;ma baby!&quot; she exclaimed. &quot;&#x27;Ere&#x27;s ya silva! Thanks dearie!&quot; (set $silver to $silver +10).
+
+I put the silver in my pocket and headed back to [[town -&gt;small town model A]].]
+
+(else:)[&quot;Oh, well Ahm sur ya&#x27;ll find &#x27;em,&quot; she said. &quot;He should be in ta [[forest]] somewhere.&quot;]</tw-passagedata><tw-passagedata pid="92" name="river" tags="" position="2839,1991">By the river there was an old [[beggar]] mumbling on a rock. 
+
+Suddenly, a sound came from the [[thicket]] across the river.</tw-passagedata><tw-passagedata pid="93" name="fruit trees" tags="" position="2843,1829">(If: $fruit_trees is 1)[I don&#x27;t think there is anything left for me to do here, I should go [[back -&gt;forest]].]
+
+(else:)[There were five diferent trees in the grove: 
+[[an apple tree]],
+[[a peach tree]], 
+[[a pear tree]], 
+[[a cherry tree]], 
+and [[a lemon tree]].]</tw-passagedata><tw-passagedata pid="94" name="tent" tags="" position="2863,1673">(if: $tent is 1)[ &quot;Did ya bring meh any [[fruit -&gt;fruit for the man]]?&quot; he asked.]
+
+
+(else:)[I found an old man sitting at a fire outside of the tent. He seemed kind and said that he needed some ingredients to cook with. 
+
+&quot;Ah am too weak to shake ta trees at ta grove,&quot; he said, &quot;If ya can bring meh some fruit, I will pay ya kindly fah it&quot;
+
+I told the man I would be back, and I headed back to the main [[hollow -&gt;forest]]. (set: $tent to $tent + 1)]</tw-passagedata><tw-passagedata pid="95" name="an apple tree" tags="" position="3257,1795">I slammed the apple tree, and nothing happened. [[Back to fruit trees -&gt;fruit trees]].</tw-passagedata><tw-passagedata pid="96" name="a peach tree" tags="" position="3251,1909">I slammed the peach tree, and nothing happened. [[Back to fruit trees -&gt;fruit trees]].</tw-passagedata><tw-passagedata pid="97" name="a pear tree" tags="" position="3247,1673">I slammed the pear tree, and nothing happened. [[Back to fruit trees -&gt;fruit trees]].</tw-passagedata><tw-passagedata pid="98" name="a cherry tree" tags="" position="3255,2125">I slammed the pear tree, and nothing happened. [[Back to fruit trees -&gt;fruit trees]].</tw-passagedata><tw-passagedata pid="99" name="a lemon tree" tags="" position="3251,2010">I slammed the lemon tree, and [[2 lemons]] fell to the ground. 
+
+I should [[slam more trees -&gt;fruit trees 2]]</tw-passagedata><tw-passagedata pid="100" name="fruit for the man" tags="" position="3007,1629">(if: $fruit is 10)[&quot;Ya found me  a whole basket full of fruit. Ehmazin&#x27;!&quot; the old man said, &quot;I can pay ya 1 piece of silva per fruit, how da stat [[sound]]?]
+
+(else:)[&quot;Come back if ya find any fruit,&quot; said the old man.
+I should go [[back -&gt;forest]].]</tw-passagedata><tw-passagedata pid="101" name="2 lemons" tags="" position="3391,2073">I went to pick up the two lemons, and they disappeared. [[Strange -&gt;fruit trees]].
+
+</tw-passagedata><tw-passagedata pid="102" name="fruit trees 2" tags="" position="3395,1951">Which tree should I slam next?
+[[apple tree]],
+[[peach tree]], 
+[[pear tree]], 
+[[cherry tree]].
+</tw-passagedata><tw-passagedata pid="103" name="apple tree" tags="" position="3592,1969">I slammed the apple tree, and [[2 apples]] fell to the ground.
+
+I should slam more [[trees -&gt;fruit trees 3]].</tw-passagedata><tw-passagedata pid="104" name="peach tree" tags="" position="3588,1837">I slammed the peach tree, the other fruit on the ground disappeared. [[Back to fruit trees -&gt;fruit trees]].</tw-passagedata><tw-passagedata pid="105" name="pear tree" tags="" position="3584,1677">I slammed the pear tree, the other fruit on the ground disappeared. [[Back to fruit trees -&gt;fruit trees]].</tw-passagedata><tw-passagedata pid="106" name="cherry tree" tags="" position="3592,2113">I slammed the cherry tree, the other fruit on the ground disappeared. [[Back to fruit trees -&gt;fruit trees]].</tw-passagedata><tw-passagedata pid="107" name="2 apples" tags="" position="3717,2045">I went to pick up the two apples, and they disappeared. [[Odd -&gt;fruit trees]].
+</tw-passagedata><tw-passagedata pid="108" name="fruit trees 3" tags="" position="3717,1921">Which tree should I slam next?
+[[pear tree -&gt;pear tree 3]], 
+[[peach tree -&gt;peach tree 3]], 
+[[cherry tree -&gt;cherry tree 3]].</tw-passagedata><tw-passagedata pid="109" name="pear tree 3" tags="" position="3859,1783">I slammed the pear tree, the other fruit on the ground disappeared. [[Back to fruit trees -&gt;fruit trees]].</tw-passagedata><tw-passagedata pid="110" name="peach tree 3" tags="" position="3865,1909">I slammed the peach tree, the other fruit on the ground disappeared. [[Back to fruit trees -&gt;fruit trees]].</tw-passagedata><tw-passagedata pid="111" name="cherry tree 3" tags="" position="3877,2047">I slammed the cherry tree, and [[2 cherries]] fell to the ground.
+
+I should slam more [[trees -&gt;fruit trees 4]].</tw-passagedata><tw-passagedata pid="112" name="2 cherries" tags="" position="4008,1971">I went to pick up the two cherries, and they disappeared. [[Curious -&gt;fruit trees]].
+</tw-passagedata><tw-passagedata pid="113" name="fruit trees 4" tags="" position="4002,1843">Which tree should I slam next?
+[[pear tree -&gt;pear tree 4]], 
+[[peach tree -&gt;peach tree 4]].</tw-passagedata><tw-passagedata pid="114" name="pear tree 4" tags="" position="4157,1967">I slammed the pear tree, the other fruit on the ground disappeared. [[Back to fruit trees -&gt;fruit trees]].</tw-passagedata><tw-passagedata pid="115" name="peach tree 4" tags="" position="4145,1833">I slammed the peach tree, and [[2 peaches]] fell to the ground.
+
+I should slam more [[trees -&gt;fruit trees 5]].</tw-passagedata><tw-passagedata pid="116" name="2 peaches" tags="" position="4304,1901">I went to pick up the two peaches, and they disappeared. [[Weird -&gt;fruit trees]].
+</tw-passagedata><tw-passagedata pid="117" name="fruit trees 5" tags="" position="4278,1771">I guess there is only one tree left to slam:
+
+[[pear tree -&gt;pear tree 5]].</tw-passagedata><tw-passagedata pid="118" name="basket of fruit" tags="" position="4596,1849">I picked up the basket (where&#x27;d the basket come from?) of fruit and it disappeared (but this time I feel like I have it, and it will appear when I need it. Don&#x27;t ask me how, I just know.) (set $fruit to $fruit +10).
+
+I guess I should [[head back -&gt;forest]] to sell it to the old man.
+
+(set $fruit_trees to $fruit_trees +1).
+</tw-passagedata><tw-passagedata pid="119" name="pear tree 5" tags="" position="4452,1891">I slammed the tree, and 2 pears fell down.
+
+Before I could even think of picking it up, a light appeared pulling all of the fruit into it. 
+
+From the light appeared a [[basket of fruit]].</tw-passagedata><tw-passagedata pid="120" name="sound" tags="" position="3155,1515">I thought before I agreed, the basket should be worth something, right?
+
+Do I [[accept]] 10 silver for the fruit,
+
+Or ask for [[more]] for the basket included?</tw-passagedata><tw-passagedata pid="121" name="accept" tags="" position="3318,1423">I said that sounded good, took the 10 silver (set $silver to $silver +10), and thanked him before I left.
+
+As I was [[leaving -&gt;forest]], I could feel a sting on my wrist. I looked down to find a &quot;P.&quot; 
+
+Is this good?</tw-passagedata><tw-passagedata pid="122" name="more" tags="" position="3396,1551">I told the man it was a basket of fruit, packaged deal, and he had to pay me accordingly.
+
+He said &quot;Ah don&#x27;t really have need for ta basket, but Ah guess Ah&#x27;ll agree.(set $silver to $silver +15) He paid me 10 for the fruit, and five for the basket.
+
+&quot;Pleasure doing business with you,&quot; I said before I left.
+
+As I was [[leaving -&gt;forest]], I could feel a sting on my wrist. I looked down to find a &quot;F.&quot; 
+
+Is this bad?</tw-passagedata><tw-passagedata pid="123" name="beggar" tags="" position="2753,2159">I approached the beggar and said Hhello,&quot; being kind.
+
+The beggar looked at me and said, &quot;Wat life gives ya can keep ta docta away, but a bowl of 2 is keen.&quot;
+
+This sounds like gibberish to me, but maybe it means something?
+
+I smiled, and slowly [[backed away -&gt;river]].</tw-passagedata><tw-passagedata pid="124" name="thicket" tags="" position="2943,2181">In the thicket stood a young man with a cat. He seemed heroic, but ill-prepared.
+
+(if:veggies is 1)[As I approached, he asked me where I got the sack of veggies. I told him I got them from the girl I helped in town, he said that was his sister and thanked me with 10 silver.
+
+I asked him if the cat was his, he said that he was trying to help it. 
+
+I explained my quest, and he quickly turned the cat over. (set $cat to $cat +1)
+
+I thought about giving him something for his help, and he could probably use my [[sword -&gt;give him the sword]] to cut through the thicket.
+
+Or maybe I should just [[thank him]], and walk away.
+
+(set $silver to $silver +10)]
+
+(else:)[I asked him if the cat was his, he said that he was trying to [[help it]]. ]</tw-passagedata><tw-passagedata pid="125" name="give him the sword" tags="" position="2793,2331">I gave him a polite smile, thanked him, and told him I felt he should have my sword.
+
+When I handed it to him, light shined around his grip, accompanied by a heavenly sound.
+
+I knew it was meant for him.
+
+As I [left -&gt;forest], I could feel a sting on my wrist, and looked down to find a &quot;P.&quot; (set $P to $P +1).
+
+I felt like I did the right thing.</tw-passagedata><tw-passagedata pid="126" name="thank him" tags="" position="2949,2401">I gave him a polite smile, thanked him, and told him I should head [[back -&gt;forest].
+
+As I left, I could feel a sting on my wrist, and looked down to find an &quot;F.&quot; (set $F to $F +1).
+
+Was the sword meant for him?
+
+</tw-passagedata><tw-passagedata pid="127" name="help it" tags="" position="3149,2369">I explained my quest, and he quickly turned the cat over. (set $cat to $cat +1)
+
+I thought about giving him something for his help, and he could probably use my [[sword -&gt;give him the sword]] to cut through the thicket.
+
+Or maybe I should just [[thank him]], and walk away.</tw-passagedata><tw-passagedata pid="128" name="waiting for the collector" tags="" position="2038,2311">(if: $P is &gt;1)[As we were waiting, a band of theives barged in the door and told us to either give them silver, or prepare to die.
+
+Before we could give them the money, the young man from the thicket came running in.
+
+He fought and defeated the thieves. He said &quot;I wanted to come by to thank you again, I asked my sister, and she said this was where I could find you.&quot;
+
+I thanked him, and then everything faded to [[light -&gt;back to the light]].]
+
+(else:)[As we were waiting, a band of theives barged in the door and told us to either give them silver, or prepare to die.
+
+We had no choice but to [[give them the silver]].] </tw-passagedata><tw-passagedata pid="129" name="give them the silver" tags="" position="2038,2461">Shortly after, the collector showed up, we explained our story, and he did not believe us and said he was taking the inn.
+
+Then, everything faded to [[light -&gt;back to the light]].</tw-passagedata><tw-passagedata pid="130" name="do him in" tags="" position="911,2325">I aimed my staff at him, and launched a large fireball, defeating the young man.
+
+Some of the crowd cheered, when suddenly a bright [[light -&gt;back to the light]] engulfed us all. </tw-passagedata><tw-passagedata pid="131" name="to be continued" tags="" position="1224,3439">To be continued...</tw-passagedata><tw-passagedata pid="132" name="Title Card" tags="" position="1150,0">&lt;H2&gt;[[The Audition -&gt;Introduction]]  &lt;/H2&gt;&lt;H4&gt; By Shane Vincent Sedlemyer &lt;/H4&gt;</tw-passagedata><tw-passagedata pid="133" name="Introduction" tags="" position="1152,110">Welcome to The Audition! This is a choice-based game using Twine.
+
+I don&#x27;t want to spoil too much, so I will simply allow you to experience the game for yourself.
+
+What you are about to play is a rough-build of the game. The game functions the way it is supposed to, but currently does not have aesthetics such as sound or advanced visuals. These will be in the final build of the game.
+
+
+Everything that you will experience is subject to change, and you might experience errors or bugs. If this happens, please contact me at shanesedy@yahoo.com.
+
+I am excited for you to play my creation, so please [[enjoy -&gt;Scene 1]]!</tw-passagedata></tw-storydata>
